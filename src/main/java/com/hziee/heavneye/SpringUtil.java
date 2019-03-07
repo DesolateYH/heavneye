@@ -15,9 +15,7 @@ public class SpringUtil {
         Arrays.sort(beanNames);
         for (String beanName : beanNames) {
             System.out.println(beanName+"000");
-            System.out.println(beanName+"000");
-            System.out.println(beanName+"000");
-            System.out.println(beanName+"000");
+
 
             }
     }
