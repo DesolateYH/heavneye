@@ -1,0 +1,7 @@
+ spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://116.62.161.99:3306/secondclass?serverTimezone=Asia/Shanghai&useSSL=false&characterEncoding=utf8
+    username: javaee
+    password: qwe123
