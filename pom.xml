@@ -11,6 +11,7 @@
     <groupId>com.hziee</groupId>
     <artifactId>heavneye</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>war</packaging>
     <name>heavneye</name>
     <description>this is a project for eye of heaven</description>
 

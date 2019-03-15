@@ -13,7 +13,10 @@ import org.springframework.context.annotation.Configuration;
 @EnableAutoConfiguration
 @SpringBootApplication
 public class HeavneyeApplication {
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(HeavneyeApplication.class);
 
+    }
     public static void main(String[] args) {
         SpringApplication.run(HeavneyeApplication.class, args);
 
